@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100vw;
+  height: 70px;
+  background-color: transparent;
+  margin: 0 30px;
+}
+
+.header__logo {
+  width: 60px;
+  cursor: pointer;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.header__logo:hover {
+  filter: drop-shadow(0 0 1em #ffffffd2);
+}
+
+.header__menu-icon {
+  width: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.header__menu {
+  width: 20px;
+  color: gray;
+  cursor: pointer;
+  transition: all 200ms ease-out;
+}
+
+.header__menu:hover {
+  color: white;
+}
+
+.header__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+}
+
+.header__user {
+  width: 20px;
+  cursor: pointer;
+  color: gray;
+  transition: all 200ms ease-out;
+}
+
+.header__user:hover {
+  color: white;
+}
+
+.header__search {
+  width: 20px;
+  cursor: pointer;
+  color: gray;
+  transition: all 200ms ease-out;
+}
+
+.header__search:hover {
+  color: white;
+}
+
+.header__bag {
+  width: 20px;
+  cursor: pointer;
+  color: gray;
+  transition: all 200ms ease-out;
+}
+
+.header__bag:hover {
+  color: white;
+}
